@@ -1,0 +1,57 @@
+@media (max-width: 728px) {
+    .hamburger {
+        display: inline;
+        position: relative;
+        top: 15px;
+        font-size: 25px;
+        left: 50px;
+    }
+    ul.navigacja {
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+        z-index: 10000;
+        position: relative;
+    }
+    ul.navigacja li {
+        float: none;
+        padding: 20px;
+        text-align: center;
+        background: #2c3030;
+        margin-top: 0;
+        border-bottom: 1px solid black;
+        z-index: 10000;
+    }
+    ul.navigacja li:hover {
+        background: #1e1e20;
+
+    }
+    .active {
+        display: none;
+    }
+}
+@media (max-width: 476px) {
+    .slider .sliderBox h3 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .slider .sliderBox h4 {
+        font-size: 20px;
+    }
+    .slider .sliderBox {
+        width: 65vw;
+        left: 47%;
+    }
+}
+@media (max-width: 305px) {
+    .slider .sliderBox h3 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .slider .sliderBox h4 {
+        font-size: 19px;
+    }
+    .slider .sliderBox {
+        width: 80vw;
+    }
+}
